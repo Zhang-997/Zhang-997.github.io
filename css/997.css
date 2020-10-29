@@ -3,37 +3,52 @@
 #footer-wrap a {
     color: #00c4b6;
 }
+
 /*修复添加up酱后图标上移的bug*/
 
 .fas {
     line-height: 2;
 }
+
 /*页脚自定义字段字体颜色*/
 
 .footer_custom_text {
     color: #fcac00;
 }
+
 /*a标签颜色*/
 
 a {
     color: #c40000;
 }
+
 /*头部文字颜色*/
 
 #nav a {
     color: #f9f2f4;
 }
+
 /*文章透明*/
 
 .layout_post>#post {
     background: rgba(255, 255, 255, .5);
 }
+
 /*移动端优化：去除归档、标签、最新文章、公告、、只保留网站统计*/
 
 @media screen and (max-width: 800px) {
-    #aside_content div:not(:last-child) {
+
+    #aside_content .sticky_layout .card-announcement .card-content,
+    #aside_content .sticky_layout .card-recent-post .card-content,
+    #aside_content .sticky_layout .card-categories .card-content,
+    #aside_content .sticky_layout .card-tags .card-content,
+    #aside_content .sticky_layout .card-archives .card-content,
+    #aside_content .sticky_layout .card-widget:nth-child(1),
+    #aside_content .sticky_layout .card-widget:nth-child(2),
+    #aside_content .sticky_layout .card-widget:nth-child(4),
+    #aside_content .sticky_layout .card-widget:nth-child(5),
+    #aside_content .sticky_layout .card-widget:nth-child(6) {
         display: none;
         font-size: 13px;
     }
 }
-
