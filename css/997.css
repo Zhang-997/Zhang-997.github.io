@@ -40,7 +40,7 @@ a:hover {
 
 /*移动端优化：去除归档、标签、最新文章、公告、、只保留网站统计*/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
 
     #aside_content .sticky_layout .card-announcement .card-content,
     #aside_content .sticky_layout .card-recent-post .card-content,
@@ -56,6 +56,7 @@ a:hover {
         font-size: 13px;
     }
     #recent-posts .recent-post-item {
+        padding: 1%;
         flex-direction: row;
     }
 
@@ -66,7 +67,7 @@ a:hover {
 
     #recent-posts .recent-post-item .recent-post-info {
         font-size: 10px;
-        padding: 0.2rem 0.5rem 0.2rem;
+        padding: 0 0 0 2%!important;
     }
 
     #recent-posts .recent-post-item .recent-post-info .content {
