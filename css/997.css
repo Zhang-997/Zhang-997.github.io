@@ -54,3 +54,11 @@ a:hover {
         font-size: 13px;
     }
 }
+@media screen and (max-width: 768px) {
+    #recent-posts .recent-post-item .recent-post-info .content {
+        -webkit-line-clamp:1;
+    }
+    #recent-posts .recent-post-item .post_cover {
+        height: 180px;
+    }
+}
