@@ -59,6 +59,13 @@ a:hover {
         -webkit-line-clamp:1;
     }
     #recent-posts .recent-post-item .post_cover {
-        height: 180px;
+        height: 100px;
+    }
+    #recent-posts .recent-post-item .recent-post-info {
+        font-size: 10px;
+        padding: 0.5rem 1rem 0.5rem;
+    }
+    #recent-posts .recent-post-item {
+        flex-direction: revert;
     }
 }
