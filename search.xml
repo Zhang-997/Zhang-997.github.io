@@ -8,7 +8,7 @@
       <link href="2020/10/26/hello-world/"/>
       <url>2020/10/26/hello-world/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><h2 id="More-info-Deployment"><a href="#More-info-Deployment" class="headerlink" title="More info: Deployment"></a>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></h2><p>layout: tags<br>#【必需】頁面標題<br>title: 第二篇测试文章<br>#【必需】頁面創建日期<br>date: 2020-10-25<br>#【可選】頁面更新日期<br>updated: 2020-10-26<br>#【必需】標籤、分類和友情鏈接三個頁面需要配置<br>type:<br>#【可選】顯示頁面評論模塊(默認 true)<br>comments:<br>#【可選】頁面描述<br>description:<br>#【可選】頁面關鍵字<br>keywords:<br>#【可選】頁面頂部圖片<br>top_img:<br>#【可選】顯示mathjax(當設置mathjax的per_page: false時，才需要配置，默認 false)<br>mathjax:<br>#【可選】顯示katex(當設置katex的per_page: false時，才需要配置，默認 false)<br>katex:<br>#【可選】顯示側邊欄 (默認 true)<br>aside:<br>#【可選】在需要的頁面加載aplayer的js和css,請參考文章下面的音樂 配置<br>aplayer:<br>#【可選】配置代碼框是否展開(true/false)(默認為設置中highlight_shrink的配置)<br>highlight_shrink:<br>categories:</p><ul><li>分类测试2<br>tags:</li><li>标签测试2</li></ul><hr>]]></content>
       
       
       
@@ -26,7 +26,7 @@
       
       <categories>
           
-          <category> 分类测试2 </category>
+          <category> 文章 </category>
           
       </categories>
       
@@ -34,35 +34,6 @@
         <tags>
             
             <tag> 标签测试2 </tag>
-            
-            <tag> 标签测试1 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>第一篇测试文章</title>
-      <link href="2020/10/25/01/"/>
-      <url>2020/10/25/01/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script>]]></content>
-      
-      
-      <categories>
-          
-          <category> 分类测试 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 标签测试2 </tag>
-            
-            <tag> 标签测试1 </tag>
             
         </tags>
       
