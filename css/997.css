@@ -21,9 +21,11 @@
 a {
     color: rgb(109, 109, 109);
 }
+
 a:hover {
     color: rgb(255, 0, 0);
 }
+
 /*头部文字颜色*/
 
 #nav a {
@@ -53,19 +55,21 @@ a:hover {
         display: none;
         font-size: 13px;
     }
-}
-@media screen and (max-width: 768px) {
-    #recent-posts .recent-post-item .recent-post-info .content {
-        -webkit-line-clamp:1;
+    #recent-posts .recent-post-item {
+        flex-direction: row;
     }
+
     #recent-posts .recent-post-item .post_cover {
         height: 100px;
     }
+
     #recent-posts .recent-post-item .recent-post-info {
         font-size: 10px;
         padding: 0.5rem 1rem 0.5rem;
     }
-    #recent-posts .recent-post-item {
-        flex-direction: revert;
+
+    #recent-posts .recent-post-item .recent-post-info .content {
+        -webkit-line-clamp: 1;
     }
+
 }
