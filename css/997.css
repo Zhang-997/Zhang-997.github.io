@@ -113,4 +113,13 @@ hr::before {
     .vat {
         font-size: 0.5rem!important;
     }
+    .vcontent {
+        padding-top: 0rem!important;
+    }
+    .vcard {
+        padding-top: 0.25rem!important;
+    }
+    .vcard>.vh {
+        padding-bottom: 0!important;
+    }
 }
