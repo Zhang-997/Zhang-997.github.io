@@ -37,7 +37,12 @@ a:hover {
 .layout_post>#post {
     background: rgba(255, 255, 255, .3);
 }
-
+hr {
+    border: 2px dashed orange;
+}
+hr::before {
+    color: orange;
+}
 /*移动端优化：去除归档、标签、最新文章、公告、、只保留网站统计*/
 
 @media screen and (max-width: 800px) {
@@ -72,5 +77,40 @@ a:hover {
     #recent-posts .recent-post-item .recent-post-info .content {
         -webkit-line-clamp: 1;
     }
-
+    
+}
+@media screen and (max-width: 520px){
+    /* 评论昵称，邮箱宽输入框宽度 */
+    .item3>.vnick,
+    .item3>.vmail {
+        width: 50%!important;
+    }
+    /* 评论网址输入框隐藏 */
+    .vlink {
+        display: none;
+    }
+    /* 评论框卡通人物 */
+    .vedit>textarea {
+        background-size: 40px 40px!important;
+    }
+    /* 评论文字下边距 */
+    .comment-head{
+        margin-bottom: 0!important;
+    }
+    /* 小剪刀外边距 */
+    hr {
+        margin: 0.5rem auto;
+    }
+    /* 页面内边距 */
+    #page {
+        padding: 0.8rem 0.7rem !important;
+    }
+    /* 评论框提交按钮 */
+    .vrow {
+        padding: 5px 0!important;
+    }
+    /* 评论框回复按钮 */
+    .vat {
+        font-size: 0.5rem!important;
+    }
 }
