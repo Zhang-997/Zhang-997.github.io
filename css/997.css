@@ -48,8 +48,15 @@ hr::before {
 .framework-info {
     display: none;
 }
-/*移动端优化：去除归档、标签、最新文章、公告、、只保留网站统计*/
-
+/* 分类、标签计数数字 */
+.tag-cloud-amount,
+.category-amount {
+    color: red;
+}
+/* 评论功能评论文字 */
+.comment-headline {
+    color: rgb(0, 163, 54);
+}
 @media screen and (max-width: 800px) {
 
     #aside_content .sticky_layout .card-announcement .card-content,
@@ -60,6 +67,7 @@ hr::before {
     #aside_content .sticky_layout .card-widget:nth-child(1),
     #aside_content .sticky_layout .card-widget:nth-child(2),
     #aside_content .sticky_layout .card-widget:nth-child(4),
+    #aside_content .sticky_layout .card-widget:nth-child(3),
     #aside_content .sticky_layout .card-widget:nth-child(6) {
         display: none;
         font-size: 13px;
@@ -128,6 +136,12 @@ hr::before {
     .vcard>.vh {
         padding-bottom: 0!important;
     }
+   .vempty {
+       padding: 0.25em!important;
+   }
+   .layout_page {
+    padding: 0.25rem 5px !important;
+   }
     /* 分页图片 */
     .not-index-bg {
         height: 10rem!important;
@@ -136,9 +150,12 @@ hr::before {
     #footer-wrap {
         padding: 1rem 1rem;
     }
-    /* 分页图片文字位置 */
+    /* 分页标题文字 */
     #page-header #page-site-info {
         top:5rem;
+    }
+    #page-header #page-site-info >h1 {
+        color: rgba(255, 255, 255, .6);
     }
     /* 主页背景图高度 */
     #page-header.full_page {
@@ -152,4 +169,13 @@ hr::before {
     .recent-post-item {
         margin-top: 0.2rem!important;
     }
+    /* up酱 */
+    #upj {
+        transform: translate(-45px,-60px)!important;;
+        width: 35px;
+        -webkit-transform: translate(-45px,-60px);
+        -moz-transform: translate(-45px,-60px);
+        -ms-transform: translate(-45px,-60px);
+        -o-transform: translate(-45px,-60px);
+}
 }
