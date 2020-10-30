@@ -92,6 +92,7 @@ hr::before {
     /* 评论框卡通人物 */
     .vedit>textarea {
         background-size: 40px 40px!important;
+        min-height: 5.75em!important;
     }
     /* 评论文字下边距 */
     .comment-head{
