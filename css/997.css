@@ -128,10 +128,28 @@ hr::before {
     .vcard>.vh {
         padding-bottom: 0!important;
     }
+    /* 分页图片 */
     .not-index-bg {
         height: 10rem!important;
     }
+    /* 底部内边距 */
     #footer-wrap {
         padding: 1rem 1rem;
+    }
+    /* 分页图片文字位置 */
+    #page-header #page-site-info {
+        top:5rem;
+    }
+    /* 主页背景图高度 */
+    #page-header.full_page {
+        height: 300px;
+    }
+    /* 主页文字距顶部距离 */
+    #page-header.full_page #site-info {
+        top: 100px;
+    }
+    /* 首页文章距离 */
+    .recent-post-item {
+        margin-top: 0.2rem!important;
     }
 }
