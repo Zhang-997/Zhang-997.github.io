@@ -40,7 +40,7 @@ a:hover {
 
 /*移动端优化：去除归档、标签、最新文章、公告、、只保留网站统计*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
 
     #aside_content .sticky_layout .card-announcement .card-content,
     #aside_content .sticky_layout .card-recent-post .card-content,
@@ -50,12 +50,11 @@ a:hover {
     #aside_content .sticky_layout .card-widget:nth-child(1),
     #aside_content .sticky_layout .card-widget:nth-child(2),
     #aside_content .sticky_layout .card-widget:nth-child(4),
-    #aside_content .sticky_layout .card-widget:nth-child(5),
     #aside_content .sticky_layout .card-widget:nth-child(6) {
         display: none;
         font-size: 13px;
     }
-    #recent-posts .recent-post-item {
+    /* #recent-posts .recent-post-item {
         padding: 1%;
         flex-direction: row;
     }
@@ -72,6 +71,6 @@ a:hover {
 
     #recent-posts .recent-post-item .recent-post-info .content {
         -webkit-line-clamp: 1;
-    }
+    } */
 
 }
