@@ -57,6 +57,9 @@ hr::before {
 .comment-headline {
     color: rgb(0, 163, 54);
 }
+.vcount {
+    color: red!important;
+}
 @media screen and (max-width: 800px) {
 
     #aside_content .sticky_layout .card-announcement .card-content,
