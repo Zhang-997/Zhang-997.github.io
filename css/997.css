@@ -37,11 +37,16 @@ a:hover {
 .layout_post>#post {
     background: rgba(255, 255, 255, .3);
 }
+/* 剪刀颜色 */
 hr {
     border: 2px dashed orange;
 }
 hr::before {
     color: orange;
+}
+/* 底部hexo文字隐藏 */
+.framework-info {
+    display: none;
 }
 /*移动端优化：去除归档、标签、最新文章、公告、、只保留网站统计*/
 
@@ -122,5 +127,11 @@ hr::before {
     }
     .vcard>.vh {
         padding-bottom: 0!important;
+    }
+    .not-index-bg {
+        height: 10rem!important;
+    }
+    #footer-wrap {
+        padding: 1rem 1rem;
     }
 }
