@@ -54,7 +54,7 @@ a:hover {
         display: none;
         font-size: 13px;
     }
-    /* #recent-posts .recent-post-item {
+    #recent-posts .recent-post-item {
         padding: 1%;
         flex-direction: row;
     }
@@ -71,6 +71,6 @@ a:hover {
 
     #recent-posts .recent-post-item .recent-post-info .content {
         -webkit-line-clamp: 1;
-    } */
+    }
 
 }
