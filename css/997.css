@@ -146,7 +146,8 @@ hr::before {
     padding: 0.25rem 5px !important;
    }
     /* 分页图片 */
-    .not-index-bg {
+    .not-index-bg,
+    .post-bg {
         height: 10rem!important;
     }
     /* 底部内边距 */
@@ -174,11 +175,23 @@ hr::before {
     }
     /* up酱 */
     #upj {
-        transform: translate(-45px,-60px)!important;;
+        transform: translate(-45px,-60px)!important;
         width: 35px;
-        -webkit-transform: translate(-45px,-60px);
-        -moz-transform: translate(-45px,-60px);
-        -ms-transform: translate(-45px,-60px);
-        -o-transform: translate(-45px,-60px);
+        -webkit-transform: translate(-45px,-60px)!important;
+        -moz-transform: translate(-45px,-60px)!important;
+        -ms-transform: translate(-45px,-60px)!important;
+        -o-transform: translate(-45px,-60px)!important;
+}
+.post-copyright {
+    margin: 0.5rem 0!important;
+}
+.post-reward {
+    margin-top: 1rem;
+}
+#pagination.pagination-post {
+    margin: 1rem 0 !important;
+}
+.post-content>p {
+    font-weight: bold;
 }
 }
