@@ -37,29 +37,36 @@ a:hover {
 .layout_post>#post {
     background: rgba(255, 255, 255, .3);
 }
+
 /* 剪刀颜色 */
 hr {
     border: 2px dashed orange;
 }
+
 hr::before {
     color: orange;
 }
+
 /* 底部hexo文字隐藏 */
 .framework-info {
     display: none;
 }
+
 /* 分类、标签计数数字 */
 .tag-cloud-amount,
 .category-amount {
     color: red;
 }
+
 /* 评论功能评论文字 */
 .comment-headline {
     color: rgb(0, 163, 54);
 }
+
 .vcount {
-    color: red!important;
+    color: red !important;
 }
+
 @media screen and (max-width: 800px) {
 
     #aside_content .sticky_layout .card-announcement .card-content,
@@ -75,6 +82,7 @@ hr::before {
         display: none;
         font-size: 13px;
     }
+
     #recent-posts .recent-post-item {
         padding: 1%;
         flex-direction: row;
@@ -87,111 +95,140 @@ hr::before {
 
     #recent-posts .recent-post-item .recent-post-info {
         font-size: 10px;
-        padding: 0 0 0 2%!important;
+        padding: 0 0 0 2% !important;
     }
 
     #recent-posts .recent-post-item .recent-post-info .content {
         -webkit-line-clamp: 1;
     }
-    
+
 }
-@media screen and (max-width: 520px){
+
+@media screen and (max-width: 520px) {
+
     /* 评论昵称，邮箱宽输入框宽度 */
     .item3>.vnick,
     .item3>.vmail {
-        width: 50%!important;
+        width: 50% !important;
     }
+
     /* 评论网址输入框隐藏 */
     .vlink {
         display: none;
     }
+
     /* 评论框卡通人物 */
     .vedit>textarea {
-        background-size: 40px 40px!important;
-        min-height: 5.75em!important;
+        background-size: 40px 40px !important;
+        min-height: 5.75em !important;
     }
+
     /* 评论文字下边距 */
-    .comment-head{
-        margin-bottom: 0!important;
+    .comment-head {
+        margin-bottom: 0 !important;
     }
+
     /* 小剪刀外边距 */
     hr {
         margin: 0.5rem auto;
     }
+
     /* 页面内边距 */
     #page {
         padding: 0.8rem 0.7rem !important;
     }
+
     /* 评论框提交按钮 */
     .vrow {
-        padding: 5px 0!important;
+        padding: 5px 0 !important;
     }
+
     /* 评论框回复按钮 */
     .vat {
-        font-size: 0.5rem!important;
+        font-size: 0.5rem !important;
     }
+
     .vcontent {
-        padding-top: 0rem!important;
+        padding-top: 0rem !important;
     }
+
     .vcard {
-        padding-top: 0.25rem!important;
+        padding-top: 0.25rem !important;
     }
+
     .vcard>.vh {
-        padding-bottom: 0!important;
+        padding-bottom: 0 !important;
     }
-   .vempty {
-       padding: 0.25em!important;
-   }
-   .layout_page {
-    padding: 0.25rem 5px !important;
-   }
+
+    .vempty {
+        padding: 0.25em !important;
+    }
+
+    .layout_page {
+        padding: 0.25rem 5px !important;
+    }
+
     /* 分页图片 */
     .not-index-bg,
     .post-bg {
-        height: 10rem!important;
+        height: 10rem !important;
     }
+
     /* 底部内边距 */
     #footer-wrap {
         padding: 1rem 1rem;
     }
+
     /* 分页标题文字 */
     #page-header #page-site-info {
-        top:5rem;
+        top: 5rem;
     }
-    #page-header #page-site-info >h1 {
+
+    #page-header #page-site-info>h1 {
         color: rgba(255, 255, 255, .6);
     }
+
     /* 主页背景图高度 */
     #page-header.full_page {
         height: 300px;
     }
+
     /* 主页文字距顶部距离 */
     #page-header.full_page #site-info {
         top: 100px;
     }
+
     /* 首页文章距离 */
     .recent-post-item {
-        margin-top: 0.2rem!important;
+        margin-top: 0.2rem !important;
     }
+
     /* up酱 */
     #upj {
-        transform: translate(-45px,-60px)!important;
+        transform: translate(-45px, -60px) !important;
         width: 35px;
-        -webkit-transform: translate(-45px,-60px)!important;
-        -moz-transform: translate(-45px,-60px)!important;
-        -ms-transform: translate(-45px,-60px)!important;
-        -o-transform: translate(-45px,-60px)!important;
-}
-.post-copyright {
-    margin: 0.5rem 0!important;
-}
-.post-reward {
-    margin-top: 1rem;
-}
-#pagination.pagination-post {
-    margin: 1rem 0 !important;
-}
-.post-content>p {
-    font-weight: bold;
-}
+        -webkit-transform: translate(-45px, -60px) !important;
+        -moz-transform: translate(-45px, -60px) !important;
+        -ms-transform: translate(-45px, -60px) !important;
+        -o-transform: translate(-45px, -60px) !important;
+    }
+
+    .post-copyright {
+        margin: 0.5rem 0 !important;
+    }
+
+    .post-reward {
+        margin-top: 1rem;
+    }
+
+    #pagination.pagination-post {
+        margin: 1rem 0 !important;
+    }
+
+    .post-content>p {
+        font-weight: bold;
+    }
+    #post-info #post-title {
+        font-size: 1.4em;
+    }
 }
