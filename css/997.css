@@ -66,7 +66,10 @@ hr::before {
 .vcount {
     color: red !important;
 }
-
+.post-content {
+    font-size: 18px;
+    color: black;
+}
 @media screen and (max-width: 800px) {
 
     #aside_content .sticky_layout .card-announcement .card-content,
@@ -225,8 +228,9 @@ hr::before {
         margin: 1rem 0 !important;
     }
 
-    .post-content>p {
+    .post-content {
         font-weight: bold;
+        font-size: 18px;
     }
     #post-info #post-title {
         font-size: 1.4em;
