@@ -66,9 +66,19 @@ hr::before {
 .vcount {
     color: red !important;
 }
+
 .post-content {
     font-size: 18px;
 }
+
+#page-header #site_social_icons {
+    width: 9em;
+}
+
+.recent-post-item {
+    height: 14em !important;
+}
+
 @media screen and (max-width: 800px) {
 
     #aside_content .sticky_layout .card-announcement .card-content,
@@ -203,6 +213,11 @@ hr::before {
     /* 首页文章距离 */
     .recent-post-item {
         margin-top: 0.2rem !important;
+        border-radius: 0 !important;
+        -webkit-border-radius: 0 !important;
+        -moz-border-radius: 0 !important;
+        -ms-border-radius: 0 !important;
+        -o-border-radius: 0 !important;
     }
 
     /* up酱 */
@@ -230,7 +245,20 @@ hr::before {
     .post-content {
         font-size: 16px;
     }
+
     #post-info #post-title {
         font-size: 1.4em;
+    }
+
+    .post_cover {
+        border-radius: 0 !important;
+        -webkit-border-radius: 0 !important;
+        -moz-border-radius: 0 !important;
+        -ms-border-radius: 0 !important;
+        -o-border-radius: 0 !important;
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
     }
 }
