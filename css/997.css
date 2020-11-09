@@ -86,6 +86,7 @@ hr::before {
     #aside_content .sticky_layout .card-categories .card-content,
     #aside_content .sticky_layout .card-tags .card-content,
     #aside_content .sticky_layout .card-archives .card-content,
+    #aside_content .card-info .card-content,
     #aside_content .sticky_layout .card-widget:nth-child(1),
     #aside_content .sticky_layout .card-widget:nth-child(2),
     #aside_content .sticky_layout .card-widget:nth-child(4),
@@ -202,7 +203,7 @@ hr::before {
 
     /* 主页背景图高度 */
     #page-header.full_page {
-        height: 250px;
+        height: 240px;
     }
 
     /* 主页文字距顶部距离 */
